@@ -1,8 +1,6 @@
 # Write your code here
 starting_number = 10
-magic_exit_number = 1
 while starting_number >= 1 do
-  break if starting_number == magic_exit_number
   puts starting_number
   starting_number -= 10 
 end
